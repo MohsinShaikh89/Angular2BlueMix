@@ -1,4 +1,4 @@
 applications: 
  - name:    hello-practice1 
    host:    hello-practice1
-   memory:  128M 
+   memory:  1000M 
