@@ -2,7 +2,7 @@
   "name": "pmd",
   "version": "1.2.0",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "start": "tsc",
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w"
