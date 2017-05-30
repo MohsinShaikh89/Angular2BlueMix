@@ -1,0 +1,53 @@
+{
+  "name": "pmd",
+  "version": "1.2.0",
+  "scripts": {
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+    "dependencies": {
+        "@angular/common": "~4.1.0",
+        "@angular/compiler": "~4.1.0",
+        "@angular/core":"~4.1.0",
+        "@angular/forms": "~4.1.0",
+        "@angular/http": "~4.1.0",
+        "@angular/platform-browser": "~4.1.0",
+        "@angular/platform-browser-dynamic":"~4.1.0",
+        "@angular/router": "~4.1.0",
+        "@angular/upgrade": "~4.1.0",
+        "@types/core-js": "0.9.35",
+        "angular-in-memory-web-api": "0.3.1",
+        "ng-chartist": "1.1.0",
+        "angular2-google-maps": "~0.17.0",
+        "chartist": "~0.9.8",
+        "core-js": "~2.4.1",
+        "jquery": "~3.1.1",
+        "reflect-metadata": "~0.1.8",
+        "rxjs": "5.0.1",
+        "systemjs": "~0.19.41",
+        "systemjs-builder": "0.16.4",
+        "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+       "@angular/cli": "1.0.3",
+        "@angular/compiler-cli": "^4.0.0",
+    "@types/chartist": "~0.9.33",
+    "@types/core-js": "~0.9.34",
+    "@types/jquery": "~2.0.34",
+    "@types/node": "~6.0.45",
+    "concurrently": "~3.0.0",
+    "lite-server": "~2.2.2",
+    "typescript": "~2.1.0",
+      "browserify": "^13.0.1",
+         "uglifyjs": "^2.4.10",
+       "gulp": "latest",
+  "gulp-util": "latest",
+  "gulp-sass": "latest",
+  "gulp-coffee": "latest",
+  "gulp-uglify": "latest",
+  "gulp-concat": "latest",
+  "gulp-connect": "latest"
+  }
+}
