@@ -7,6 +7,10 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w"
   },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MohsinShaikh89/Angular2BlueMix.git"
+  },
     "dependencies": {
         "@angular/common": "~4.1.0",
         "@angular/compiler": "~4.1.0",
